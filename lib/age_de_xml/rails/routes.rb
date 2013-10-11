@@ -14,6 +14,7 @@ module ActionDispatch::Routing
     #  * :domain => host name
     #  * :age => allowed age
     def age_de_xml(options={})
+      AgeDeXml.set_options(options) if options
       get 'age-de.xml', to: 'age_de_xml#show', defaults: { format: :xml }
     end
   end

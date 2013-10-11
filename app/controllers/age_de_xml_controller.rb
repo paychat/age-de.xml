@@ -1,5 +1,4 @@
 class AgeDeXmlController < ActionController::Base
-  def show
-
-  end
+  caches_page :show
+  respond_to :xml, only: :show
 end
