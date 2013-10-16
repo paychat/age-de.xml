@@ -3,6 +3,10 @@ age-de.xml
 
 Rails plugin for age-de.xml label for age classification. Minimal implementation.
 
+Description: https://www.altersklassifizierung.de/en and http://online-management-kontor.de/downloads/age-de-xml-label_definition_v3.0g_english1.pdf
+Generator: https://www.altersklassifizierung.de/en/fragebogen
+Validator: https://www.altersklassifizierung.de/en/validator
+
 ## Installation
 
 Add this line to your application's Gemfile:
